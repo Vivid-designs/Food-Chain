@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link'
 
 export default function Home() {
     return (
@@ -7,7 +8,9 @@ export default function Home() {
 			<p className="welcome-description">
 				Because life is to short to be arguing over bills and food.
 			</p>
-			<button className="btn btn-primary">Take A Picture</button>
+			<Link href="/camera">
+				<button className="btn btn-primary">Take A Picture</button>
+			</Link>
             <p>Take a picture of the bill to get started</p>
 		</div>
     )
