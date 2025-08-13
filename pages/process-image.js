@@ -6,8 +6,8 @@ export default function ProcessImage () {
     return (
         <div className="process-image-container">
             <h1>Process Image</h1>
-            <Link href="/">
-                <button className="btn btn-primary">Back to Home</button>
+            <Link href="/calculate">
+                <button className="btn btn-primary">Calculate Bill</button>
             </Link>
         </div>
     )
